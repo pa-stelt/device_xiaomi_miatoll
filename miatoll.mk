@@ -235,6 +235,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# Notch
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAMiatollFrameworks \
