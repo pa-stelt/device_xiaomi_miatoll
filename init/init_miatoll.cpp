@@ -70,7 +70,7 @@ void load_device_properties() {
     std::string hwversion = GetProperty("ro.boot.hwversion", "");
 
     if (hwname == "curtana") {
-        if (region == "Global_TWO" || region == "Japan") {
+        if (region == "Global_TWO" || region == "Global_PA" || region == "Japan") {
             set_device_props("Redmi", "curtana", "Redmi Note 9S");
         } else if (region == "India") {
             set_device_props("Redmi", "curtana", "Redmi Note 9 Pro");
