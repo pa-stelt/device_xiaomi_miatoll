@@ -28,6 +28,9 @@ $(call inherit-product, device/xiaomi/miatoll/miatoll.mk)
  # Inherit from the AOSPA configuration.
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 
+# Inherit GoogleCamera
+$(call inherit-product, vendor/xiaomi/miatoll-gcam/miatoll-gcam-vendor.mk)
+
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := miatoll
